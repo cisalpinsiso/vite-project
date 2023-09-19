@@ -7,6 +7,7 @@ function Layout() {
       <ul>
         <li><NavLink to={"/"}>Home</NavLink></li>
         <li><NavLink to={"/counter"}>Counter</NavLink></li>
+        <li><NavLink to={"/quizz"}>Quizz</NavLink></li>
       </ul>
       <Outlet/>
     </>

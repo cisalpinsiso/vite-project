@@ -4,6 +4,7 @@ import Counter from './Counter'
 import NoPage from './NoPage'
 import Home from './Home'
 import Layout from './Layout'
+import Quizz from './Quizz'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path='/' element={<Layout />} >
           <Route index element={<Home />} />
           <Route path='/counter' element={<Counter />} />
+          <Route path='/quizz' element={<Quizz />} />
           <Route path='*' element={<NoPage />} />
         </Route>
       </Routes> 
